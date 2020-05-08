@@ -75,15 +75,15 @@
         </ul>
     </b-card>
     
-    <b-modal ref="give-up" size="sm">
+    <b-modal ref="give-up" ok-only size="sm">
       <p>You stopped the game, you lost...</p>
     </b-modal>
     
-    <b-modal ref="you-won"  id="yuoWon" size="sm">
+    <b-modal ref="you-won" ok-only id="yuoWon" size="sm">
       <p>You won! Congratulations!</p>
     </b-modal>
 
-    <b-modal ref="monster-won" id="monsterWon" variant="success" size="sm">
+    <b-modal ref="monster-won" ok-only id="monsterWon" variant="success" size="sm">
       <p>You lost! Try again!</p>
     </b-modal>
 
