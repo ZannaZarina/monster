@@ -79,11 +79,11 @@
       <p>You stopped the game, you lost...</p>
     </b-modal>
     
-    <b-modal ref="you-won" ok-only id="yuoWon" size="sm">
+    <b-modal ref="you-won" ok-only size="sm">
       <p>You won! Congratulations!</p>
     </b-modal>
 
-    <b-modal ref="monster-won" ok-only id="monsterWon" variant="success" size="sm">
+    <b-modal ref="monster-won" ok-only size="sm">
       <p>You lost! Try again!</p>
     </b-modal>
 
@@ -187,10 +187,6 @@ body {
   min-height: 900px;;
   height: max-content;
   background-repeat: repeat;  
-}
-
-#monsterWon {
-  font-size: 50px;
 }
 
 .player {
