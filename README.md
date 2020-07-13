@@ -1,3 +1,5 @@
+![demonstration](https://github.com/ZannaZarina/monster/blob/master/fight.gif)
+
 # ex-1
 
 ## Project setup
